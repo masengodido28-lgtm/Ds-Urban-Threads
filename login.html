@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login | Ds Urban Threads</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            DS <span>URBAN THREADS</span>
+        </a>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="cart.html">Cart</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Authentication Section -->
+    <main class="auth-page">
+
+        <div class="auth-container">
+
+            <h1>Welcome Back</h1>
+
+            <p class="auth-subtitle">
+                Login to your Ds Urban Threads account.
+            </p>
+
+
+            <!-- Login Form -->
+            <form id="login-form">
+
+                <div class="form-group">
+
+                    <label for="login-email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="login-email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="login-password">
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="login-password"
+                        placeholder="Enter your password"
+                        required
+                    >
+
+                </div>
+
+
+                <button type="submit" class="auth-btn">
+                    Login
+                </button>
+
+            </form>
+
+
+            <p id="auth-message"></p>
+
+
+            <p class="auth-switch">
+    Don't have an account?
+
+    <a href="#" id="show-signup">
+        Create one
+    </a>
+</p>
+
+
+            <!-- Signup Form -->
+            <form id="signup-form" class="hidden">
+
+                <h2>Create Account</h2>
+
+                <div class="form-group">
+
+                    <label for="signup-email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="signup-email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="signup-password">
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="signup-password"
+                        placeholder="Create a password"
+                        required
+                    >
+
+                </div>
+
+
+                <button type="submit" class="auth-btn">
+                    Sign Up
+                </button>
+
+            </form>
+
+        </div>
+
+    </main>
+
+
+    <!-- Authentication JavaScript -->
+    <script type="module" src="./js/auth.js"></script>
+
+</body>
+</html>

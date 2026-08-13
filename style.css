@@ -576,3 +576,86 @@ body {
     cursor: pointer;
     font-size: 16px;
 }
+
+/* =========================
+   Authentication
+========================= */
+
+.auth-page {
+    min-height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 40px;
+    background: #fff;
+    color: #111;
+    border-radius: 15px;
+}
+
+.auth-container h1 {
+    margin-bottom: 10px;
+}
+
+.auth-subtitle {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.auth-btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 7px;
+    background: #111;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.auth-btn:hover {
+    opacity: 0.8;
+}
+
+.auth-switch {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.auth-switch a {
+    color: #111;
+    font-weight: bold;
+}
+
+#auth-message {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.hidden {
+    display: none;
+}
