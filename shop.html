@@ -10,21 +10,34 @@
 </head>
 
 <body>
+<!-- Navbar -->
+<nav class="navbar">
 
-    <nav class="navbar">
+    <a href="index.html" class="logo">
+        DS <span>URBAN THREADS</span>
+    </a>
 
-        <a href="index.html" class="logo">
-            DS <span>URBAN THREADS</span>
+    <div class="nav-links">
+
+        <a href="index.html">Home</a>
+
+        <a href="shop.html">Shop</a>
+
+        <a href="cart.html">Cart</a>
+
+        <a href="login.html" id="login-link">
+            Login
         </a>
 
-        <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="shop.html">Shop</a>
-            <a href="login.html">Login</a>
-            <a href="cart.html">Cart</a>
-        </div>
+        <span id="user-email"></span>
 
-    </nav>
+        <button id="logout-btn">
+            Logout
+        </button>
+
+    </div>
+
+</nav>
 
 
     <main class="shop-page">
@@ -57,6 +70,7 @@
 
 
     <script type="module" src="./js/shop.js"></script>
+<script type="module" src="./js/navbar.js"></script>
 
 </body>
 </html>

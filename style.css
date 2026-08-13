@@ -659,3 +659,19 @@ body {
 .hidden {
     display: none;
 }
+
+/* Authentication Navbar */
+
+#logout-btn {
+    display: none;
+    border: none;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#user-email {
+    color: #fff;
+    font-size: 14px;
+}
