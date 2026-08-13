@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Checkout | Ds Urban Threads</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            DS <span>URBAN THREADS</span>
+        </a>
+
+        <div class="nav-links">
+
+            <a href="index.html">Home</a>
+
+            <a href="shop.html">Shop</a>
+
+            <a href="cart.html">Cart</a>
+
+            <a href="login.html" id="login-link">
+                Login
+            </a>
+
+            <span id="user-email"></span>
+
+            <button id="logout-btn">
+                Logout
+            </button>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Checkout -->
+    <main class="checkout-page">
+
+        <div class="checkout-container">
+
+            <h1>Checkout</h1>
+
+            <p class="checkout-subtitle">
+                Complete your order below.
+            </p>
+
+
+            <!-- Customer Information -->
+            <section class="checkout-section">
+
+                <h2>Customer Information</h2>
+
+                <form id="checkout-form">
+
+                    <div class="form-group">
+
+                        <label for="full-name">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="full-name"
+                            placeholder="Enter your full name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="phone">
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            placeholder="Enter your phone number"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="address">
+                            Delivery Address
+                        </label>
+
+                        <textarea
+                            id="address"
+                            placeholder="Enter your delivery address"
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="checkout-btn"
+                    >
+                        Place Order
+                    </button>
+
+                </form>
+
+            </section>
+
+
+            <!-- Order Summary -->
+            <section class="checkout-section">
+
+                <h2>Order Summary</h2>
+
+                <div id="checkout-items">
+                    <!-- Cart items will appear here -->
+                </div>
+
+                <div class="checkout-total">
+
+                    <span>Total</span>
+
+                    <strong id="checkout-total">
+                        R0.00
+                    </strong>
+
+                </div>
+
+            </section>
+
+
+            <p id="checkout-message"></p>
+
+        </div>
+
+    </main>
+
+
+    <!-- JavaScript -->
+    <script type="module" src="./js/navbar.js"></script>
+
+    <script type="module" src="./js/checkout.js"></script>
+
+</body>
+
+</html>
