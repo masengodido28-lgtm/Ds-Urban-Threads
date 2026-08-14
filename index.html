@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,13 +20,19 @@
         </a>
 
         <div class="nav-links">
+
             <a href="index.html">Home</a>
+
             <a href="shop.html">Shop</a>
+
             <a href="login.html">Login</a>
+
             <a href="cart.html">Cart</a>
+
             <button id="theme-toggle" class="theme-toggle">
-    ☀️
-</button>
+                ☀️
+            </button>
+
         </div>
 
     </nav>
@@ -38,7 +45,9 @@
 
             <div class="hero-content">
 
-                <p class="eyebrow">WELCOME TO Ds</p>
+                <p class="eyebrow">
+                    WELCOME TO Ds
+                </p>
 
                 <h1>
                     WEAR YOUR
@@ -58,114 +67,421 @@
 
         </section>
 
-         <!-- Categories -->
+
+        <!-- Categories -->
         <section class="categories">
 
             <div class="section-heading">
-                <p class="eyebrow">EXPLORE</p>
-                <h2>SHOP BY CATEGORY</h2>
+
+                <p class="eyebrow">
+                    EXPLORE
+                </p>
+
+                <h2>
+                    SHOP BY CATEGORY
+                </h2>
+
             </div>
+
 
             <div class="category-grid">
 
-                <a href="shop.html?category=Hoodies" class="category-card">
-                    <div class="category-image hoodie-image"></div>
+
+                <!-- Hoodies -->
+
+                <a
+                    href="shop.html?category=Hoodies"
+                    class="category-card"
+                >
+
+                    <img
+                        src="./assets/cotton-hoodie.webp"
+                        alt="Hoodies"
+                        class="category-image"
+                    >
+
                     <div class="category-content">
-                        <h3>Hoodies</h3>
-                        <span>Explore →</span>
+
+                        <h3>
+                            Hoodies
+                        </h3>
+
+                        <span>
+                            Explore →
+                        </span>
+
                     </div>
+
                 </a>
 
-                <a href="shop.html?category=T-Shirts" class="category-card">
-                    <div class="category-image tshirt-image"></div>
+
+                <!-- T-Shirts -->
+
+                <a
+                    href="shop.html?category=T-Shirts"
+                    class="category-card"
+                >
+
+                    <img
+                        src="./assets/graphic-tee.webp"
+                        alt="T-Shirts"
+                        class="category-image"
+                    >
+
                     <div class="category-content">
-                        <h3>T-Shirts</h3>
-                        <span>Explore →</span>
+
+                        <h3>
+                            T-Shirts
+                        </h3>
+
+                        <span>
+                            Explore →
+                        </span>
+
                     </div>
+
                 </a>
 
-                <a href="shop.html?category=Sneakers" class="category-card">
-                    <div class="category-image sneaker-image"></div>
+
+                <!-- Sneakers -->
+
+                <a
+                    href="shop.html?category=Sneakers"
+                    class="category-card"
+                >
+
+                    <img
+                        src="./assets/street-sneaker.webp"
+                        alt="Sneakers"
+                        class="category-image"
+                    >
+
                     <div class="category-content">
-                        <h3>Sneakers</h3>
-                        <span>Explore →</span>
+
+                        <h3>
+                            Sneakers
+                        </h3>
+
+                        <span>
+                            Explore →
+                        </span>
+
                     </div>
+
                 </a>
 
-                <a href="shop.html?category=Accessories" class="category-card">
-                    <div class="category-image accessories-image"></div>
+
+                <!-- Accessories -->
+
+                <a
+                    href="shop.html?category=Accessories"
+                    class="category-card"
+                >
+
+                    <img
+                        src="./assets/utility-bag.webp"
+                        alt="Accessories"
+                        class="category-image"
+                    >
+
                     <div class="category-content">
-                        <h3>Accessories</h3>
-                        <span>Explore →</span>
+
+                        <h3>
+                            Accessories
+                        </h3>
+
+                        <span>
+                            Explore →
+                        </span>
+
                     </div>
+
                 </a>
 
             </div>
 
         </section>
 
+        <!-- Build Your Fit -->
+<section class="build-fit">
+
+    <div class="section-heading">
+        <p class="eyebrow">MAKE IT YOURS</p>
+        <h2>BUILD YOUR FIT</h2>
+        <p class="fit-intro">
+            Choose your pieces and create a look that's yours.
+        </p>
+    </div>
+
+
+    <div class="fit-container">
+
+        <!-- Top Selection -->
+        <div class="fit-category">
+
+            <h3>Choose Your Top</h3>
+
+            <div class="fit-options">
+
+                <button
+                    class="fit-option"
+                    data-type="top"
+                    data-name="Oversized Hoodie"
+                    data-price="899"
+                    data-image="assets/oversized-hoodie.jpg"
+                >
+
+                    <img
+                        src="assets/oversized-hoodie.jpg"
+                        alt="Oversized Hoodie"
+                    >
+
+                    <span>Oversized Hoodie</span>
+
+                    <strong>R899</strong>
+
+                </button>
+
+
+                <button
+                    class="fit-option"
+                    data-type="top"
+                    data-name="Classic Street Tee"
+                    data-price="499"
+                    data-image="assets/classic-street-tee.jpg"
+                >
+
+                    <img
+                        src="assets/classic-street-tee.jpg"
+                        alt="Classic Street Tee"
+                    >
+
+                    <span>Classic Street Tee</span>
+
+                    <strong>R499</strong>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Sneakers Selection -->
+        <div class="fit-category">
+
+            <h3>Choose Your Sneakers</h3>
+
+            <div class="fit-options">
+
+                <button
+                    class="fit-option"
+                    data-type="shoes"
+                    data-name="Urban Runner"
+                    data-price="1299"
+                    data-image="assets/urban-runner.jpg"
+                >
+
+                    <img
+                        src="assets/urban-runner.jpg"
+                        alt="Urban Runner"
+                    >
+
+                    <span>Urban Runner</span>
+
+                    <strong>R1,299</strong>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Fit Summary -->
+        <div class="fit-summary">
+
+            <h3>Your Fit</h3>
+
+            <div id="selected-fit">
+                <p>Select your pieces to build your fit.</p>
+            </div>
+
+            <div class="fit-total">
+
+                <span>Total</span>
+
+                <strong id="fit-total">
+                    R0
+                </strong>
+
+            </div>
+
+            <button
+                id="add-fit-cart"
+                class="shop-btn"
+                disabled
+            >
+                ADD FIT TO CART
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
 
         <!-- Featured Collection -->
         <section class="featured">
 
             <div class="section-heading featured-heading">
+
                 <div>
-                    <p class="eyebrow">THE LATEST</p>
-                    <h2>FEATURED COLLECTION</h2>
+
+                    <p class="eyebrow">
+                        THE LATEST
+                    </p>
+
+                    <h2>
+                        FEATURED COLLECTION
+                    </h2>
+
                 </div>
 
-                <a href="shop.html" class="view-all">
+                <a
+                    href="shop.html"
+                    class="view-all"
+                >
                     VIEW ALL →
                 </a>
+
             </div>
+
 
             <div class="featured-grid">
 
+
+                <!-- Featured Hoodie -->
+
                 <article class="product-card">
+
                     <div class="product-image">
-                        <span class="product-tag">NEW</span>
+
+                        <img
+                            src="./assets/cotton-hoodie.webp"
+                            alt="Oversized Hoodie"
+                        >
+
+                        <span class="product-tag">
+                            NEW
+                        </span>
+
                     </div>
+
 
                     <div class="product-info">
+
                         <div>
-                            <h3>Oversized Hoodie</h3>
-                            <p>Hoodies</p>
+
+                            <h3>
+                                Oversized Hoodie
+                            </h3>
+
+                            <p>
+                                Hoodies
+                            </p>
+
                         </div>
 
-                        <strong>R899</strong>
+                        <strong>
+                            R899
+                        </strong>
+
                     </div>
+
                 </article>
 
 
+                <!-- Featured T-Shirt -->
+
                 <article class="product-card">
+
                     <div class="product-image">
-                        <span class="product-tag">NEW</span>
+
+                        <img
+                            src="./assets/urban-tshirt.webp"
+                            alt="Classic Street Tee"
+                        >
+
+                        <span class="product-tag">
+                            NEW
+                        </span>
+
                     </div>
+
 
                     <div class="product-info">
+
                         <div>
-                            <h3>Classic Street Tee</h3>
-                            <p>T-Shirts</p>
+
+                            <h3>
+                                Classic Street Tee
+                            </h3>
+
+                            <p>
+                                T-Shirts
+                            </p>
+
                         </div>
 
-                        <strong>R499</strong>
+                        <strong>
+                            R499
+                        </strong>
+
                     </div>
+
                 </article>
 
 
+                <!-- Featured Sneakers -->
+
                 <article class="product-card">
+
                     <div class="product-image">
-                        <span class="product-tag">TRENDING</span>
+
+                        <img
+                            src="./assets/runner-sneaker.webp"
+                            alt="Urban Runner"
+                        >
+
+                        <span class="product-tag">
+                            TRENDING
+                        </span>
+
                     </div>
+
 
                     <div class="product-info">
+
                         <div>
-                            <h3>Urban Runner</h3>
-                            <p>Sneakers</p>
+
+                            <h3>
+                                Urban Runner
+                            </h3>
+
+                            <p>
+                                Sneakers
+                            </p>
+
                         </div>
 
-                        <strong>R1,299</strong>
+                        <strong>
+                            R1,299
+                        </strong>
+
                     </div>
+
                 </article>
 
             </div>
@@ -179,18 +495,38 @@
     <footer class="footer">
 
         <div class="footer-brand">
-            <h2>DS <span>URBAN THREADS</span></h2>
+
+            <h2>
+                DS <span>URBAN THREADS</span>
+            </h2>
+
             <p>
                 Streetwear for every version of you.
             </p>
+
         </div>
 
+
         <div class="footer-links">
-            <a href="index.html">Home</a>
-            <a href="shop.html">Shop</a>
-            <a href="login.html">Login</a>
-            <a href="cart.html">Cart</a>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="shop.html">
+                Shop
+            </a>
+
+            <a href="login.html">
+                Login
+            </a>
+
+            <a href="cart.html">
+                Cart
+            </a>
+
         </div>
+
 
         <p class="copyright">
             © 2026 DS Urban Threads. All rights reserved.
@@ -198,7 +534,9 @@
 
     </footer>
 
+
     <script src="./js/theme.js"></script>
 
 </body>
+
 </html>
