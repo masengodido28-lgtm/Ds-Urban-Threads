@@ -937,3 +937,168 @@ body {
     }
 
 }
+
+/* =========================
+   Theme Toggle
+========================= */
+
+.theme-toggle {
+    border: 1px solid #444;
+    background: transparent;
+    color: #fff;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.theme-toggle:hover {
+    background: #fff;
+    color: #111;
+}
+
+
+/* =========================
+   Light Mode
+========================= */
+
+body.light-mode {
+    background: #f5f5f5;
+    color: #111;
+}
+
+
+/* Navbar */
+
+body.light-mode .navbar {
+    background: #fff;
+}
+
+body.light-mode .logo {
+    color: #111;
+}
+
+body.light-mode .nav-links a {
+    color: #111;
+}
+
+body.light-mode #user-email {
+    color: #666;
+}
+
+body.light-mode #logout-btn {
+    color: #111;
+    border-color: #ccc;
+}
+
+body.light-mode #logout-btn:hover {
+    background: #111;
+    color: #fff;
+}
+
+
+/* Theme button */
+
+body.light-mode .theme-toggle {
+    border-color: #ccc;
+    color: #111;
+}
+
+
+/* Hero */
+
+body.light-mode .hero {
+    background: linear-gradient(
+        90deg,
+        #f5f5f5 0%,
+        #f5f5f5 45%,
+        #e8e8e8 100%
+    );
+}
+
+body.light-mode .hero-text {
+    color: #555;
+}
+
+
+/* Featured */
+
+body.light-mode .featured {
+    background: #f5f5f5;
+}
+
+body.light-mode .featured-heading,
+body.light-mode .featured-heading h2 {
+    color: #111;
+}
+
+body.light-mode .view-all {
+    color: #111;
+}
+
+body.light-mode .product-card {
+    color: #111;
+}
+
+
+/* Categories */
+
+body.light-mode .categories {
+    background: #fff;
+    color: #111;
+}
+
+
+/* Cart */
+
+body.light-mode .cart-page {
+    background: #f5f5f5;
+    color: #111;
+}
+
+body.light-mode .cart-item {
+    background: #fff;
+    border-color: #ddd;
+}
+
+body.light-mode .cart-item-info h3,
+body.light-mode .cart-item-right strong {
+    color: #111;
+}
+
+body.light-mode .quantity-controls button {
+    background: #fff;
+    color: #111;
+    border-color: #ccc;
+}
+
+body.light-mode .cart-summary {
+    background: #fff;
+    border-color: #ddd;
+}
+
+body.light-mode .cart-summary p {
+    color: #111;
+}
+
+
+/* Checkout */
+
+body.light-mode .checkout-page {
+    background: #f5f5f5;
+    color: #111;
+}
+
+
+/* Footer */
+
+body.light-mode .footer {
+    background: #fff;
+    color: #111;
+}
+
+body.light-mode .footer-links a {
+    color: #111;
+}
