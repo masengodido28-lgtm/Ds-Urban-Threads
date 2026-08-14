@@ -1272,3 +1272,159 @@ body.light-mode .build-fit {
     object-fit: cover;
     display: block;
 }
+
+
+/* =========================
+   Authentication / Login
+========================= */
+
+/* Login page layout */
+.auth-page {
+    min-height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 5%;
+    background: #111;
+}
+
+/* Login card */
+.auth-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 40px;
+    background: #fff;
+    color: #111;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Card heading */
+.auth-container h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+/* Card subtitle */
+.auth-subtitle {
+    margin-bottom: 30px;
+    color: #777;
+    line-height: 1.5;
+}
+
+/* Form fields */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Form labels */
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+/* Form inputs */
+.form-group input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background: #fff;
+    color: #111;
+}
+
+/* Input focus state */
+.form-group input:focus {
+    outline: none;
+    border-color: #111;
+}
+
+/* Login and signup buttons */
+.auth-btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #111;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+/* Button hover */
+.auth-btn:hover {
+    background: #333;
+    transform: translateY(-2px);
+}
+
+/* Login/signup message */
+#auth-message {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Create account text */
+.auth-switch {
+    margin-top: 25px;
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+}
+
+/* Create account link */
+.auth-switch a {
+    color: #111;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Signup form heading */
+#signup-form h2 {
+    margin-bottom: 25px;
+}
+
+/* Hide signup form until selected */
+.hidden {
+    display: none;
+}
+
+
+/* =========================
+   Authentication - Light Mode
+========================= */
+
+body.light-mode .auth-page {
+    background: #f5f5f5;
+}
+
+body.light-mode .auth-container {
+    background: #fff;
+    color: #111;
+}
+
+
+/* =========================
+   Authentication - Mobile
+========================= */
+
+@media (max-width: 600px) {
+
+    .auth-page {
+        padding: 40px 5%;
+    }
+
+    .auth-container {
+        padding: 30px 25px;
+    }
+
+    .auth-container h1 {
+        font-size: 28px;
+    }
+
+}
