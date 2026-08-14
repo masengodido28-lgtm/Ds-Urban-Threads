@@ -1245,3 +1245,30 @@ body.light-mode .build-fit {
     }
 
 }
+
+.product-image img,
+.category-image,
+.fit-option img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.product-image {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Build Your Fit images */
+.fit-option {
+    width: 180px;
+    overflow: hidden;
+}
+
+.fit-option img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
